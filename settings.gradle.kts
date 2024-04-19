@@ -6,6 +6,6 @@ pluginManagement {
     }
 }
 
-rootProject.name = "cccp"
+rootProject.name = "LaTeamDeh"
 
 include(":site")
