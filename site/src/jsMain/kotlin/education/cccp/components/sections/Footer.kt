@@ -16,10 +16,10 @@ import com.varabyte.kobweb.silk.components.style.toModifier
 import com.varabyte.kobweb.silk.components.style.vars.color.ColorVar
 import com.varabyte.kobweb.silk.components.text.SpanText
 import com.varabyte.kobweb.silk.theme.colors.ColorMode
+import education.cccp.toSitePalette
 import org.jetbrains.compose.web.css.cssRem
 import org.jetbrains.compose.web.css.percent
 import org.jetbrains.compose.web.dom.Span
-import education.cccp.toSitePalette
 
 val FooterStyle by ComponentStyle.base {
     Modifier
@@ -44,8 +44,8 @@ fun Footer(modifier: Modifier = Modifier) {
             // Huge thanks to UI Rocket (https://ui-rocket.com) for putting this great template design together for us!
             // If you like what you see here and want help building your own site, consider checking out their services.
             Link(
-                "https://ui-rocket.com",
-                "UI Rocket",
+                "bit.ly/LaTeamDeh",
+                "LA Team Deh Discord",
                 Modifier.setVariable(ColorVar, sitePalette.brand.accent).whiteSpace(WhiteSpace.NoWrap),
                 variant = UncoloredLinkVariant
             )

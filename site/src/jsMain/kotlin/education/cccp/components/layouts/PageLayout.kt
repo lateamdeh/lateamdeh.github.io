@@ -14,13 +14,13 @@ import com.varabyte.kobweb.silk.components.style.ComponentStyle
 import com.varabyte.kobweb.silk.components.style.breakpoint.Breakpoint
 import com.varabyte.kobweb.silk.components.style.toModifier
 import com.varabyte.kobweb.silk.theme.colors.ColorMode
+import education.cccp.components.sections.Footer
+import education.cccp.components.sections.NavHeader
+import education.cccp.toSitePalette
 import kotlinx.browser.document
 import org.jetbrains.compose.web.css.cssRem
 import org.jetbrains.compose.web.css.fr
 import org.jetbrains.compose.web.css.percent
-import education.cccp.components.sections.Footer
-import education.cccp.components.sections.NavHeader
-import education.cccp.toSitePalette
 
 val PageContentStyle by ComponentStyle {
     base { Modifier.fillMaxSize().padding(leftRight = 2.cssRem, top = 4.cssRem) }
@@ -64,7 +64,7 @@ private fun SvgCobweb(modifier: Modifier) {
 @Composable
 fun PageLayout(title: String, content: @Composable ColumnScope.() -> Unit) {
     LaunchedEffect(title) {
-        document.title = "Kobweb - $title"
+        document.title = "La Team Deh ! - $title"
     }
 
     Box(
