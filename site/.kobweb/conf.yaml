@@ -1,6 +1,6 @@
 site:
   title: "LaTeamDeh"
-  routePrefix: "lateamdeh.github.io"
+#  routePrefix: "lateamdeh.github.io"
 
 server:
   files:
