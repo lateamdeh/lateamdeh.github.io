@@ -1,4 +1,4 @@
-package education.cccp
+package la_team_deh
 
 import com.varabyte.kobweb.compose.css.TextAlign
 import com.varabyte.kobweb.compose.ui.Modifier

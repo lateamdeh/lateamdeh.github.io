@@ -1,4 +1,4 @@
-package education.cccp
+package la_team_deh
 
 import com.varabyte.kobweb.compose.ui.graphics.Color
 import com.varabyte.kobweb.compose.ui.graphics.Colors

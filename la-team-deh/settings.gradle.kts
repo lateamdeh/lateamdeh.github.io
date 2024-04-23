@@ -6,6 +6,6 @@ pluginManagement {
     }
 }
 
-rootProject.name = "LaTeamDeh"
+rootProject.name = "la_team_deh"
 
 include(":site")

@@ -1,4 +1,4 @@
-package education.cccp.pages
+package la_team_deh.pages
 
 import androidx.compose.runtime.Composable
 import com.varabyte.kobweb.compose.css.StyleVariable
@@ -26,10 +26,10 @@ import com.varabyte.kobweb.silk.theme.colors.ColorSchemes
 import org.jetbrains.compose.web.css.*
 import org.jetbrains.compose.web.dom.Div
 import org.jetbrains.compose.web.dom.Text
-import education.cccp.HeadlineTextStyle
-import education.cccp.SubheadlineTextStyle
-import education.cccp.components.layouts.PageLayout
-import education.cccp.toSitePalette
+import la_team_deh.HeadlineTextStyle
+import la_team_deh.SubheadlineTextStyle
+import la_team_deh.components.layouts.PageLayout
+import la_team_deh.toSitePalette
 
 // Container that has a tagline and grid on desktop, and just the tagline on mobile
 val HeroContainerStyle by ComponentStyle {

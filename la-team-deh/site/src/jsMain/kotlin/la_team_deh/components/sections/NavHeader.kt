@@ -1,4 +1,4 @@
-package education.cccp.components.sections
+package la_team_deh.components.sections
 
 import androidx.compose.runtime.*
 import com.varabyte.kobweb.browser.dom.ElementTarget
@@ -32,8 +32,8 @@ import com.varabyte.kobweb.silk.components.style.breakpoint.Breakpoint
 import com.varabyte.kobweb.silk.components.style.toModifier
 import com.varabyte.kobweb.silk.theme.colors.ColorMode
 import org.jetbrains.compose.web.css.*
-import education.cccp.components.widgets.IconButton
-import education.cccp.toSitePalette
+import la_team_deh.components.widgets.IconButton
+import la_team_deh.toSitePalette
 
 val NavHeaderStyle by ComponentStyle.base {
     Modifier.fillMaxWidth().padding(1.cssRem)

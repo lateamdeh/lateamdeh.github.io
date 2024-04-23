@@ -1,4 +1,4 @@
-package education.cccp.components.sections
+package la_team_deh.components.sections
 
 import androidx.compose.runtime.Composable
 import com.varabyte.kobweb.compose.css.TextAlign
@@ -16,10 +16,10 @@ import com.varabyte.kobweb.silk.components.style.toModifier
 import com.varabyte.kobweb.silk.components.style.vars.color.ColorVar
 import com.varabyte.kobweb.silk.components.text.SpanText
 import com.varabyte.kobweb.silk.theme.colors.ColorMode
-import education.cccp.toSitePalette
 import org.jetbrains.compose.web.css.cssRem
 import org.jetbrains.compose.web.css.percent
 import org.jetbrains.compose.web.dom.Span
+import la_team_deh.toSitePalette
 
 val FooterStyle by ComponentStyle.base {
     Modifier
@@ -44,8 +44,8 @@ fun Footer(modifier: Modifier = Modifier) {
             // Huge thanks to UI Rocket (https://ui-rocket.com) for putting this great template design together for us!
             // If you like what you see here and want help building your own site, consider checking out their services.
             Link(
-                "bit.ly/LaTeamDeh",
-                "LA Team Deh Discord",
+                "https://ui-rocket.com",
+                "UI Rocket",
                 Modifier.setVariable(ColorVar, sitePalette.brand.accent).whiteSpace(WhiteSpace.NoWrap),
                 variant = UncoloredLinkVariant
             )

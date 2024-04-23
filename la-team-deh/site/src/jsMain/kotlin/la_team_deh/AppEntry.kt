@@ -1,4 +1,4 @@
-package education.cccp
+package la_team_deh
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -16,7 +16,7 @@ import com.varabyte.kobweb.silk.theme.colors.ColorMode
 import kotlinx.browser.localStorage
 import org.jetbrains.compose.web.css.vh
 
-private const val COLOR_MODE_KEY = "cccp:colorMode"
+private const val COLOR_MODE_KEY = "la_team_deh:colorMode"
 
 @InitSilk
 fun initColorMode(ctx: InitSilkContext) {

@@ -8,13 +8,13 @@ plugins {
     alias(libs.plugins.kobwebx.markdown)
 }
 
-group = "education.cccp"
+group = "la_team_deh"
 version = "1.0-SNAPSHOT"
 
 kobweb {
     app {
         index {
-            description.set("Powered by ProloGeek")
+            description.set("Powered by Kobweb")
         }
 
         // Only legacy sites need this set. Sites built after 0.16.0 should default to DISALLOW.
@@ -26,7 +26,7 @@ kobweb {
 kotlin {
     // This example is frontend only. However, for a fullstack app, you can uncomment the includeServer parameter
     // and the `jvmMain` source set below.
-    configAsKobwebApplication("LaTeamDeh" /*, includeServer = true*/)
+    configAsKobwebApplication("la_team_deh" /*, includeServer = true*/)
 
     sourceSets {
         commonMain.dependencies {
