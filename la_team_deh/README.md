@@ -64,7 +64,13 @@ $ kobweb export --layout static
 When finished, you can run a Kobweb server in production mode to test it.
 
 ```bash
-$ kobweb run --env prod --layout static
+kobweb run --env prod --layout static
+```
+
+```bash
+kobweb kobwebCleanFolder kobwebCleanSite;
+kobweb run --env prod --layout static;
+firefox http://localhost:8080/ &
 ```
 
 The above export generates a layout which is compatible with any static hosting provider of your choice, such as
